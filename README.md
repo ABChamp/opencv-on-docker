@@ -12,7 +12,7 @@ $ docker build -t imageNameAsYouWant .
 
 and it's ready to go.
 
-complie C++ with opencv library on container
+compile C++ with opencv library on container
 <pre>
 $ g++ -g -Wall main.cpp -I/usr/local/include/opencv -I/usr/local/include -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc
 </pre>
