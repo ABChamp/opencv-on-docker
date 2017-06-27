@@ -1,7 +1,7 @@
-Build Docker Image On OpenCv
+Build Docker Image with OpenCv
 
 - base on phusion/baseimage (Ubuntu 16.04 LTS)
-- openCV 2.4.13
+- g++, python3 and openCV 2.4.13
 
 Install 
 1. Install docker on your computer.

@@ -1,7 +1,6 @@
 FROM phusion/baseimage
 
-RUN \
-	apt-get -y update && \
+RUN apt-get -y update && \
 	apt-get install -y software-properties-common && \
 	apt-get install -y build-essential checkinstall curl ntp htop cmake make unzip yasm git vim pkg-config wget && \
 	apt-get install -y libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev && \
